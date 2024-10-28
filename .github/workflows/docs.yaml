@@ -23,3 +23,5 @@ jobs:
       - run: pip install -r requirements.txt
       - run: cd ./db && python make.py
       - run: mkdocs gh-deploy --force
+        env:
+          MKDOCS_GIT_COMMITTERS_APIKEY: ${{ secrets.MKDOCS_GIT_COMMITTERS_APIKEY }}
