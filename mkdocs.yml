@@ -1,0 +1,206 @@
+site_name: Key社全收集计划
+site_url: https://yhdsl.github.io/Key-Collection
+site_description: Key社全收集计划/档案楼/资源站/合集：一个旨在记录和免费分享Key社作品资源和周边的地方
+site_author: yhdsl
+
+repo_url: https://github.com/yhdsl/Key-Collection
+repo_name: GitHub
+edit_uri: blob/main/docs/
+
+docs_dir: docs
+
+dev_addr: localhost:8000
+
+validation:
+  omitted_files: warn
+  absolute_links: warn  # Or 'relative_to_docs' - new in MkDocs 1.6
+  unrecognized_links: warn
+  anchors: warn  # New in MkDocs 1.6
+
+theme:
+  name: material
+
+  language: zh
+
+  logo: assets/img/favicon.svg
+  favicon: assets/img/favicon.svg
+
+  features:
+    - navigation.instant  # 即时加载
+    - navigation.instant.progress  # 进度指示器
+    - navigation.tracking  # 锚点追踪
+    - navigation.tabs  # 导航选项卡
+    - navigation.path  # 面包屑导航
+    - navigation.indexes  # 章节索引页
+    - navigation.top  # 返回顶部按钮
+    - navigation.footer  # 页脚翻页指示
+    - toc.follow  # 锚点追随
+    - search.highlight  # 搜索高亮
+    - content.tooltips  # 改进的工具提示
+    - content.code.copy  # 代码块文本复制
+    - content.code.select  # 代码块行选择
+
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: light green
+      accent: green
+      toggle:
+        icon: material/toggle-switch
+        name: 切换至深色主题
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: lime
+      accent: amber
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: 切换至浅色主题
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify {}
+  - tables
+  - pymdownx.betterem
+  - pymdownx.caret:
+      superscript: false
+  - pymdownx.mark
+  - pymdownx.tilde:
+      subscript: false
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+
+plugins:
+  - search:
+      lang: zh
+  - autorefs
+  - git-committers:
+      # noinspection YAMLIncompatibleTypes
+      enabled: !ENV [ CI, false ]
+      repository: yhdsl/Key-Collection
+      branch: main
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: true
+
+extra:
+  status:
+    new: 该页面包含最近更新的条目
+
+extra_css:
+  - assets/css/extra.css
+
+extra_javascript:
+  - assets/js/shortcuts.js
+
+nav:
+  - 主页:
+    - 主页: index.md
+    - 作品目录: key/index.md
+    - 音乐目录: music/index.md
+  - 资源下载: download.md
+  - 作品清单:
+      - 广义上Key社的作品:
+        - A00 杂货铺: key/A00 杂货铺.md
+        - A01 ヒビキのマホウ: key/A01 ヒビキのマホウ.md
+        - A02 猫狩り族の長: key/A02 猫狩り族の長.md
+        - A03 HOLY BREAKER! 系列:
+          - A03.1 HOLY BREAKER!: key/A03.1 HOLY BREAKER!.md
+          - A03.2 HOLY BREAKER! 2: key/A03.2 HOLY BREAKER! 2.md
+        - A04 Farewell,ours ~夏の僕らは瞬きもできない場所へ~: key/A04 Farewell,ours ~夏の僕らは瞬きもできない場所へ~.md
+        - A05 5 -ファイブ-: key/A05 5 -ファイブ-.md
+      - Key社成立前:
+          - B01 同棲: key/B01 同棲.md
+          - B02 MOON.: key/B02 MOON..md
+          - B03 ONE 系列:
+            - B03.1 ONE ～輝く季節へ～: key/B03.1 ONE ～輝く季節へ～.md
+            - B03.2 ONE.: key/B03.2 ONE..md
+      - Key社正传:
+          - C01 Kanon: key/C01 Kanon.md
+          - C02 AIR: key/C02 AIR.md
+          - C03 CLANNAD 系列:
+              - C03.1 CLANNAD: key/C03.1 CLANNAD.md
+              - C03.2 智代アフター 〜It's a Wonderful Life〜: key/C03.2 智代アフター 〜It's a Wonderful Life〜.md
+          - C04 planetarian 系列:
+              - C04.1 planetarian ～ちいさなほしのゆめ～: key/C04.1 planetarian ～ちいさなほしのゆめ～.md
+              - C04.2 planetarian 〜雪圏球〜: key/C04.2 planetarian 〜雪圏球〜.md
+          - C05 Little Busters! 系列:
+              - C05.1 Little Busters!: key/C05.1 Little Busters!.md
+              - C05.2 Little Busters! Ecstasy: key/C05.2 Little Busters! Ecstasy.md
+              - C05.3 クドわふたー: key/C05.3 クドわふたー.md
+          - C06 Rewrite 系列:
+              - C06.1 Rewrite: key/C06.1 Rewrite.md
+              - C06.2 Rewrite+: key/C06.2 Rewrite+.md
+              - C06.3 Rewrite Harvest festa!: key/C06.3 Rewrite Harvest festa!.md
+          - C07 Angel Beats!-1st beat: key/C07 Angel Beats!-1st beat.md
+          - C08 Harmonia: key/C08 Harmonia.md
+          - C09 Summer Pockets 系列:
+              - C09.1 Summer Pockets: key/C09.1 Summer Pockets.md
+              - C09.2 Summer Pockets REFLECTION BLUE: key/C09.2 Summer Pockets REFLECTION BLUE.md
+          - C10 LOOPERS 系列:
+              - C10.1 LOOPERS: key/C10.1 LOOPERS.md
+              - C10.2 LOOPERS PLUS: key/C10.2 LOOPERS PLUS.md
+          - C11 LUNARiA -Virtualized Moonchild-: key/C11 LUNARiA -Virtualized Moonchild-.md
+          - C12 Heaven Burns Red: key/C12 Heaven Burns Red.md
+          - C13 終のステラ: key/C13 終のステラ.md
+          - C14 虹彩都市: key/C14 虹彩都市.md
+          - C15 anemoi: key/C15 anemoi.md
+      - Key社动画:
+          - D01 Kanon 系列:
+              - D01.1 Kanon (東映): key/D01.1 Kanon (東映).md
+              - D01.2 Kanon (京アニ): key/D01.2 Kanon (京アニ).md
+          - D02 AIR 系列:
+              - D02.1 AIR 劇場版 (東映): key/D02.1 AIR 劇場版 (東映).md
+              - D02.2 AIR (京アニ): key/D02.2 AIR (京アニ).md
+          - D03 CLANNAD 系列:
+              - D03.1 CLANNAD 劇場版 (東映): key/D03.1 CLANNAD 劇場版 (東映).md
+              - D03.2 CLANNAD (京アニ): key/D03.2 CLANNAD (京アニ).md
+              - D03.3 CLANNAD 〜AFTER STORY〜 (京アニ): key/D03.3 CLANNAD 〜AFTER STORY〜 (京アニ).md
+          - D04 planetarian 系列:
+              - D04.1 planetarian ～ちいさなほしのゆめ～: key/D04.1 planetarian ～ちいさなほしのゆめ～.md
+              - D04.2 planetarian ～星の人～: key/D04.2 planetarian ～星の人～.md
+              - D04.3 planetarian ～雪圏球～: key/D04.3 planetarian ～雪圏球～.md
+          - D05 Little Busters! 系列:
+              - D05.1 Little Busters!: key/D05.1 Little Busters!.md
+              - D05.2 Little Busters! 〜Refrain〜: key/D05.2 Little Busters! 〜Refrain〜.md
+              - D05.3 Little Busters! EX: key/D05.3 Little Busters! EX.md
+              - D05.4 クドわふたー 劇場版: key/D05.4 クドわふたー 劇場版.md
+          - D06 Rewrite: key/D06 Rewrite.md
+          - D07 Angel Beats!: key/D07 Angel Beats!.md
+          - D08 Charlotte: key/D08 Charlotte.md
+          - D09 神様になった日: key/D09 神様になった日.md
+          - D10 かぎなど: key/D10 かぎなど.md
+          - D11 プリマドール: key/D11 プリマドール.md
+          - D12 Summer Pockets: key/D12 Summer Pockets.md
+  - 音乐清单:
+      - Key Sounds Label:
+        - KSLA 系列: music/KSLA.md
+        - KSLC 系列: music/KSLC.md
+        - KSLV 系列: music/KSLV.md
+        - 其它: music/KSL.md
+      - Key社:
+        - Key社 (作品): music/Key-Product.md
+        - Key社 (其它): music/Key-Other.md
+  - 更新日志: changelog.md
+  - 关于:
+      - 关于: about.md
+      - 帮助我们: help.md
