@@ -1160,11 +1160,12 @@ def get_table_rows(
         包含 Data 子类和 ID 的字典
 
     :return:
-        对应的数据表的列
+        对应的数据表的列，
+        逆序排序
     """
     rows = []
     if mode in ("主要作品", "通用作品"):
-        for i in table_data.keys():
+        for i in reversed(table_data.keys()):
             data = table_data[i]
             rows_dict = {
                 'id': i,
@@ -1176,7 +1177,7 @@ def get_table_rows(
             }
             rows.append(rows_dict)
     elif mode == "音乐作品":
-        for j in table_data.keys():
+        for j in reversed(table_data.keys()):
             data = table_data[j]
             rows_dict = {
                 'id': j,
