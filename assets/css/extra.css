@@ -35,3 +35,7 @@
 .disable {
   color: gray;
 }
+
+.highlight pre{
+  white-space: pre-wrap;
+}
