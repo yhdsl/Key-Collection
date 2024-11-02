@@ -769,16 +769,43 @@ def build():
         cur = CON.cursor()
         metadata_list = []
 
-        cur.execute(
-            f"SELECT * FROM music WHERE the_class_music = ?",
-            (music_name,)
-        )
-        music_sql_data = cur.fetchall()
-        markdown_list = get_music_markdown_with_product(
-            music_sql_data,
-            level=2,
-            recently_updated_music=recently_updated_music
-        )
+        if music_name == "Key-Product":
+            markdown_list = []
+
+            cur.execute(f"SELECT the_class FROM music WHERE the_class_music = 'Key-Product'")
+            the_class_list = _get_unique_list(sql_data=cur.fetchall())
+
+            for the_class in the_class_list:
+                if not bool(the_class):
+                    raise ValueError("Key-Product 内包含错误作品名")
+                else:
+                    markdown_list += [
+                        f'## {the_class}\n',
+                        f'\n',
+                    ]
+
+                    cur.execute(
+                        f"SELECT * FROM music WHERE the_class = ? AND the_class_music = ?",
+                        (the_class, music_name)
+                    )
+                    music_sql_data = cur.fetchall()
+                    markdown_list += get_music_markdown_with_product(
+                        music_sql_data,
+                        level=3,
+                        recently_updated_music=recently_updated_music
+                    )
+
+        else:
+            cur.execute(
+                f"SELECT * FROM music WHERE the_class_music = ?",
+                (music_name,)
+            )
+            music_sql_data = cur.fetchall()
+            markdown_list = get_music_markdown_with_product(
+                music_sql_data,
+                level=2,
+                recently_updated_music=recently_updated_music
+            )
 
         cur.close()
         write_file(
