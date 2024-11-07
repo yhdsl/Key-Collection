@@ -417,29 +417,26 @@ def get_recently_updated() -> tuple[
         以及包含最近更新的条目和音乐的处理后的字典的列表，
         最近更新的数目由 RECENTLY_UPDATED_LIMIT 变量控制
     """
-    cur_main = CON.cursor()
-    cur_main.arraysize = RECENTLY_UPDATED_LIMIT_MAIN
-    cur_other = CON.cursor()
-    cur_other.arraysize = RECENTLY_UPDATED_LIMIT_OTHER
+    cur = CON.cursor()
 
     recently_updated_key = []
     recently_updated_music = []
     recently_updated_file = []
 
-    cur_main.execute(f"SELECT * FROM main")
-    for sql_data in cur_main.fetchmany():
+    cur.execute(f"SELECT * FROM main")
+    for sql_data in cur.fetchall()[-RECENTLY_UPDATED_LIMIT_MAIN:]:
         key_data = get_key_data(sql_data)
         recently_updated_key.append(key_data)
         recently_updated_file.append(key_data["the_class"])
 
-    cur_other.execute(f"SELECT * FROM key")
-    for sql_data in cur_other.fetchmany():
+    cur.execute(f"SELECT * FROM key")
+    for sql_data in cur.fetchall()[-RECENTLY_UPDATED_LIMIT_OTHER:]:
         key_data = get_key_data(sql_data)
         recently_updated_key.append(key_data)
         recently_updated_file.append(key_data["the_class"])
 
-    cur_other.execute(f"SELECT * FROM music")
-    for sql_data in cur_other.fetchmany():
+    cur.execute(f"SELECT * FROM music")
+    for sql_data in cur.fetchall()[-RECENTLY_UPDATED_LIMIT_OTHER:]:
         recently_updated_music.append(get_music_data(sql_data))
 
     try:
