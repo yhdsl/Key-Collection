@@ -12,7 +12,7 @@
 
 ## 終わりの惑星のLove Song
 
-### \[FJCD-0001] Killer Song (✅) :material-alert-decagram:{ .mdx-pulse title="最近更新" }
+### \[FJCD-0001] Killer Song (✅)
 
 <small>:octicons-link-16: 終わりの惑星のLove Song</small>
 
@@ -58,7 +58,7 @@ BD/DVD: 不适用⛔
     </div>
 </div>
 
-### \[FJMC-0002~3] 終わりの惑星のLove Song (✅) :material-alert-decagram:{ .mdx-pulse title="最近更新" }
+### \[FJMC-0002~3] 終わりの惑星のLove Song (✅)
 
 <small>:octicons-link-16: 終わりの惑星のLove Song</small>
 
@@ -103,6 +103,7 @@ BD/DVD: 已收藏✅
     </div>
 </div>
 
+---
 ## VA Compilation CD Panorama
 
 ### \[VA-C77-0001] Panorama VA Compilation CD Vol.1 (✅) :material-alert-decagram:{ .mdx-pulse title="最近更新" }
@@ -325,7 +326,7 @@ BD/DVD: 不适用⛔
     </div>
 </div>
 
-### \[VA-C89-0001] VA Compilation CD Panorama Vol.6 (✅)
+### \[VA-C89-0001] VA Compilation CD Panorama Vol.6 (✅) :material-alert-decagram:{ .mdx-pulse title="最近更新" }
 
 <small>:octicons-link-16: VA Compilation CD Panorama</small>
 
@@ -369,3 +370,93 @@ BD/DVD: 不适用⛔
     </div>
 </div>
 
+---
+## 5 -ファイブ-
+
+### \[RMCD-0001] 風の理／永遠 (✅) :material-alert-decagram:{ .mdx-pulse title="最近更新" }
+
+<small>:octicons-link-16: 5 -ファイブ-</small>
+
+<small>:material-music-box-multiple: RMCD-0001</small>
+
+<small>:material-tag-text: 麻枝准</small>
+
+```
+专辑名: 風の理／永遠
+艺术家: 霜月はるか
+专辑编号: RMCD-0001
+发售时间: 2008/07/25
+状态: 已发售🎉
+
+资源: 已收藏✅
+音乐格式: FLAC
+Booklet: 已收藏✅
+BD/DVD: 不适用⛔
+
+简介: 作品 5 -ファイブ- 的主题曲，作为游戏的初回特典方式附送
+
+备注1: 
+备注2: 
+备注3: 
+```
+
+<div class="result">
+    <div class="grid">
+        <a href="https://bgm.tv/subject/9627" class="card" target=”_blank”>
+            前往 <i class="bangumi">Bangumi 番组计划</i> 对应的页面
+        </a>
+        <div class="card disable">
+            前往 Steam 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VNDB 对应的页面
+        </div>
+        <a href="https://vgmdb.net/album/9683" class="card" target=”_blank”>
+            前往 <i class="vgmdb">VGMdb</i> 对应的页面
+        </a>
+    </div>
+</div>
+
+### \[KDSD-00357] 導きのハーモニー (✅) :material-alert-decagram:{ .mdx-pulse title="最近更新" }
+
+<small>:octicons-link-16: 5 -ファイブ-</small>
+
+<small>:material-music-box-multiple: KDSD-00357</small>
+
+```
+专辑名: 導きのハーモニー
+艺术家: 霜月はるか
+专辑编号: KDSD-00357
+发售时间: 2010/04/14
+状态: 已发售🎉
+
+资源: 已收藏✅
+音乐格式: FLAC
+Booklet: 已收藏✅
+BD/DVD: 不适用⛔
+
+简介: 霜月はるか的ワークスアルバム第三弹，其中收录了 5 -ファイブ- 的两首主题曲
+
+备注1: 
+备注2: 
+备注3: 
+```
+
+<div class="result">
+    <div class="grid">
+        <a href="https://bgm.tv/subject/4837" class="card" target=”_blank”>
+            前往 <i class="bangumi">Bangumi 番组计划</i> 对应的页面
+        </a>
+        <div class="card disable">
+            前往 Steam 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VNDB 对应的页面
+        </div>
+        <a href="https://vgmdb.net/album/17836" class="card" target=”_blank”>
+            前往 <i class="vgmdb">VGMdb</i> 对应的页面
+        </a>
+    </div>
+</div>
+
+---

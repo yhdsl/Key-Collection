@@ -53,7 +53,7 @@ BD/DVD: 不适用⛔
     </div>
 </div>
 
-## \[AKCM-0001] Key Best Song Remix -to the Future- (✅) :material-alert-decagram:{ .mdx-pulse title="最近更新" }
+## \[AKCM-0001] Key Best Song Remix -to the Future- (✅)
 
 
 <small>:material-music-box-multiple: AKCM-0001</small>
