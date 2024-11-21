@@ -777,7 +777,7 @@ def build():
                     raise ValueError("Key-Product 内包含错误作品名")
                 else:
                     markdown_list += [
-                        f'## {the_class}\n',
+                        f'## {_get_product_source_name(the_class)}\n',
                         f'\n',
                     ]
 
