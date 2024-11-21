@@ -791,6 +791,9 @@ def build():
                         level=3,
                         recently_updated_music=recently_updated_music
                     )
+                markdown_list += [
+                    f"---\n"
+                ]
 
         else:
             cur.execute(
