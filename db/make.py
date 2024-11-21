@@ -707,6 +707,13 @@ def build():
                     recently_updated=(key_main_data in recently_updated_key)
                     )
 
+                if key_main_data["icon"] in ('❌', '❓'):
+                    help_key_list += get_key_markdown(
+                        key_main_data,
+                        level=3,
+                        recently_updated=False
+                    )
+
             cur.execute(
                 f"SELECT * FROM key WHERE the_class = ?",
                 (key_name,)
