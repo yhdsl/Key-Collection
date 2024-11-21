@@ -601,13 +601,14 @@ def gen_help_page(help_key_list: list[str]):
     markdown_list += [TXTEnd, '\n']
 
     markdown_list += [
-        f'## 需要帮助的条目\n'
+        f'## 需要帮助的条目\n',
         f'\n'
     ]
     markdown_list += help_key_list
 
     markdown_list += [
-        f'## 需要帮助的音乐\n'
+        f'---\n',
+        f'## 需要帮助的音乐\n',
         f'\n'
     ]
     cur = CON.cursor()
