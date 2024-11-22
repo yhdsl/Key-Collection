@@ -397,7 +397,7 @@ class Data:
 
 class KeyData(Data):
     TypeType = ("游戏", "动漫", "小说", "书籍", "漫画", "画集", "设定集", "公式书", "杂志", "其它")  #: 可用的类别
-    StatusType = ("未发售👀", "已发售🎉", "连载中🚋", "已完结🎉")  #: 可用的状态
+    StatusType = ("未发售👀", "已发售🎉", "连载中🚋", "已完结🎉", "不适用⛔")  #: 可用的状态
     CollectType = ("已收藏✅", "无资源❌", "未收藏🔘", "有问题❓", "等待中👀", "更新中🚋", "不适用⛔")  #: 可用的收集状态
 
     AllAttribute = (
@@ -1489,10 +1489,8 @@ def web_ui(
                 nicegui.ui.label("⦿ 条目收藏状态")
 
                 with nicegui.ui.row().classes('w-full'):
-                    collect_type = list(key_data.CollectType)
-                    collect_type.pop(-1)
                     key_collect = nicegui.ui.select(
-                        collect_type,
+                        list(key_data.CollectType),
                         label="原版资源收藏状态",
                         validation={'原版资源收藏状态不能为空': lambda value: bool(value)}
                     )
@@ -1524,6 +1522,9 @@ def web_ui(
                             key_collect_zh.value = "不适用⛔"
                         elif value == "连载中🚋":
                             key_collect.value = "更新中🚋"
+                        elif value == "不适用⛔":
+                            key_collect.value = "不适用⛔"
+                            key_collect_zh.value = "不适用⛔"
                         return
 
                     key_status.on_value_change(callback=lambda event: key_status_sync(event.value))
