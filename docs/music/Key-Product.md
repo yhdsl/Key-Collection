@@ -371,6 +371,100 @@ BD/DVD: 不适用⛔
 </div>
 
 ---
+## 同棲
+
+### \[EXRC-0004] 同棲 & MOON. オリジナルサウンドトラック (🔘) :material-alert-decagram:{ .mdx-pulse title="最近更新" }
+
+<small>:octicons-link-16: 同棲</small>
+
+<small>:material-music-box-multiple: EXRC-0004</small>
+
+<small>:material-tag-text: OST</small>
+
+```
+专辑名: 同棲 & MOON. オリジナルサウンドトラック
+艺术家: 折戸伸治; Myu; Paste; いしさん; YET11; 麻枝准
+专辑编号: EXRC-0004
+发售时间: 2000/08/10
+状态: 已发售🎉
+
+资源: 已收藏✅
+音乐格式: FLAC
+Booklet: 未收藏🔘
+BD/DVD: 不适用⛔
+
+简介: 作品同棲和MOON.的OST
+
+备注1: 
+备注2: 
+备注3: 
+```
+
+<div class="result">
+    <div class="grid">
+        <a href="https://bgm.tv/subject/282655" class="card" target=”_blank”>
+            前往 <i class="bangumi">Bangumi 番组计划</i> 对应的页面
+        </a>
+        <div class="card disable">
+            前往 Steam 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VNDB 对应的页面
+        </div>
+        <a href="https://vgmdb.net/album/4969" class="card" target=”_blank”>
+            前往 <i class="vgmdb">VGMdb</i> 对应的页面
+        </a>
+    </div>
+</div>
+
+---
+## MOON.
+
+### \[EXRC-0004] 同棲 & MOON. オリジナルサウンドトラック (🔘) :material-alert-decagram:{ .mdx-pulse title="最近更新" }
+
+<small>:octicons-link-16: MOON.</small>
+
+<small>:material-music-box-multiple: EXRC-0004</small>
+
+<small>:material-tag-text: OST</small>
+
+```
+专辑名: 同棲 & MOON. オリジナルサウンドトラック
+艺术家: 折戸伸治; Myu; Paste; いしさん; YET11; 麻枝准
+专辑编号: EXRC-0004
+发售时间: 2000/08/10
+状态: 已发售🎉
+
+资源: 已收藏✅
+音乐格式: FLAC
+Booklet: 未收藏🔘
+BD/DVD: 不适用⛔
+
+简介: 作品同棲和MOON.的OST
+
+备注1: 
+备注2: 
+备注3: 
+```
+
+<div class="result">
+    <div class="grid">
+        <a href="https://bgm.tv/subject/282655" class="card" target=”_blank”>
+            前往 <i class="bangumi">Bangumi 番组计划</i> 对应的页面
+        </a>
+        <div class="card disable">
+            前往 Steam 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VNDB 对应的页面
+        </div>
+        <a href="https://vgmdb.net/album/4969" class="card" target=”_blank”>
+            前往 <i class="vgmdb">VGMdb</i> 对应的页面
+        </a>
+    </div>
+</div>
+
+---
 ## 5 -ファイブ-
 
 ### \[RMCD-0001] 風の理／永遠 (✅) :material-alert-decagram:{ .mdx-pulse title="最近更新" }

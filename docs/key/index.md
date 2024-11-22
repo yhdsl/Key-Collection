@@ -88,32 +88,35 @@ Key社的作品比较零零散散，
 
 ### Key社动画 (改编)
 
+- ONE ～輝く季節へ～ 系列
+    - [ONE～輝く季節へ～][D01.1]
+    - [ONE～輝く季節へ～ True Stories][D01.2]
 - Kanon 系列
-    - [Kanon (東映)][D01.1]
-    - [Kanon (京アニ)][D01.2]
+    - [Kanon (東映)][D02.1]
+    - [Kanon (京アニ)][D02.2]
 - AIR 系列
-    - [AIR 劇場版 (東映)][D02.1]
-    - [AIR (京アニ)][D02.2]
+    - [AIR 劇場版 (東映)][D03.1]
+    - [AIR (京アニ)][D03.2]
 - CLANNAD 系列
-    - [CLANNAD 劇場版 (東映)][D03.1]
-    - [CLANNAD (京アニ)][D03.2]
-    - [CLANNAD 〜AFTER STORY〜 (京アニ)][D03.3]
+    - [CLANNAD 劇場版 (東映)][D04.1]
+    - [CLANNAD (京アニ)][D04.2]
+    - [CLANNAD 〜AFTER STORY〜 (京アニ)][D04.3]
 - planetarian 系列
-    - [planetarian ～ちいさなほしのゆめ～][D04.1]
-    - [planetarian ～星の人～][D04.2]
-    - [planetarian ～雪圏球～][D04.3]
+    - [planetarian ～ちいさなほしのゆめ～][D05.1]
+    - [planetarian ～星の人～][D05.2]
+    - [planetarian ～雪圏球～][D05.3]
 - Little Busters! 系列
-    - [Little Busters!][D05.1]
-    - [Little Busters! 〜Refrain〜][D05.2]
-    - [Little Busters! EX][D05.3]
-    - [クドわふたー 劇場版][D05.4]
-- [Rewrite][D06]
-- [Angel Beats!][D07]
-- [かぎなど][D10]
-- [Summer Pockets][D12]
+    - [Little Busters!][D06.1]
+    - [Little Busters! 〜Refrain〜][D06.2]
+    - [Little Busters! EX][D06.3]
+    - [クドわふたー 劇場版][D06.4]
+- [Rewrite][D07]
+- [Angel Beats!][D08]
+- [かぎなど][D11]
+- [Summer Pockets][D13]
 
 ### Key社动画 (原创)
 
-- [Charlotte][D08]
-- [神様になった日][D09]
-- [プリマドール][D11]
+- [Charlotte][D09]
+- [神様になった日][D10]
+- [プリマドール][D12]

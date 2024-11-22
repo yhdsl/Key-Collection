@@ -165,32 +165,35 @@ nav:
           - C14 虹彩都市: key/C14 虹彩都市.md
           - C15 anemoi: key/C15 anemoi.md
       - Key社动画:
-          - D01 Kanon 系列:
-              - D01.1 Kanon (東映): key/D01.1 Kanon (東映).md
-              - D01.2 Kanon (京アニ): key/D01.2 Kanon (京アニ).md
-          - D02 AIR 系列:
-              - D02.1 AIR 劇場版 (東映): key/D02.1 AIR 劇場版 (東映).md
-              - D02.2 AIR (京アニ): key/D02.2 AIR (京アニ).md
-          - D03 CLANNAD 系列:
-              - D03.1 CLANNAD 劇場版 (東映): key/D03.1 CLANNAD 劇場版 (東映).md
-              - D03.2 CLANNAD (京アニ): key/D03.2 CLANNAD (京アニ).md
-              - D03.3 CLANNAD 〜AFTER STORY〜 (京アニ): key/D03.3 CLANNAD 〜AFTER STORY〜 (京アニ).md
-          - D04 planetarian 系列:
-              - D04.1 planetarian ～ちいさなほしのゆめ～: key/D04.1 planetarian ～ちいさなほしのゆめ～.md
-              - D04.2 planetarian ～星の人～: key/D04.2 planetarian ～星の人～.md
-              - D04.3 planetarian ～雪圏球～: key/D04.3 planetarian ～雪圏球～.md
-          - D05 Little Busters! 系列:
-              - D05.1 Little Busters!: key/D05.1 Little Busters!.md
-              - D05.2 Little Busters! 〜Refrain〜: key/D05.2 Little Busters! 〜Refrain〜.md
-              - D05.3 Little Busters! EX: key/D05.3 Little Busters! EX.md
-              - D05.4 クドわふたー 劇場版: key/D05.4 クドわふたー 劇場版.md
-          - D06 Rewrite: key/D06 Rewrite.md
-          - D07 Angel Beats!: key/D07 Angel Beats!.md
-          - D08 Charlotte: key/D08 Charlotte.md
-          - D09 神様になった日: key/D09 神様になった日.md
-          - D10 かぎなど: key/D10 かぎなど.md
-          - D11 プリマドール: key/D11 プリマドール.md
-          - D12 Summer Pockets: key/D12 Summer Pockets.md
+          - D01 ONE ～輝く季節へ～ 系列:
+              - D01.1 ONE～輝く季節へ～: key/D01.1 ONE～輝く季節へ～.md
+              - D01.1 ONE～輝く季節へ～ True Stories: key/D01.2 ONE～輝く季節へ～ True Stories.md
+          - D02 Kanon 系列:
+              - D02.1 Kanon (東映): key/D02.1 Kanon (東映).md
+              - D02.2 Kanon (京アニ): key/D02.2 Kanon (京アニ).md
+          - D03 AIR 系列:
+              - D03.1 AIR 劇場版 (東映): key/D03.1 AIR 劇場版 (東映).md
+              - D03.2 AIR (京アニ): key/D03.2 AIR (京アニ).md
+          - D04 CLANNAD 系列:
+              - D04.1 CLANNAD 劇場版 (東映): key/D04.1 CLANNAD 劇場版 (東映).md
+              - D04.2 CLANNAD (京アニ): key/D04.2 CLANNAD (京アニ).md
+              - D04.3 CLANNAD 〜AFTER STORY〜 (京アニ): key/D04.3 CLANNAD 〜AFTER STORY〜 (京アニ).md
+          - D05 planetarian 系列:
+              - D05.1 planetarian ～ちいさなほしのゆめ～: key/D05.1 planetarian ～ちいさなほしのゆめ～.md
+              - D05.2 planetarian ～星の人～: key/D05.2 planetarian ～星の人～.md
+              - D05.3 planetarian ～雪圏球～: key/D05.3 planetarian ～雪圏球～.md
+          - D06 Little Busters! 系列:
+              - D06.1 Little Busters!: key/D06.1 Little Busters!.md
+              - D06.2 Little Busters! 〜Refrain〜: key/D06.2 Little Busters! 〜Refrain〜.md
+              - D06.3 Little Busters! EX: key/D06.3 Little Busters! EX.md
+              - D06.4 クドわふたー 劇場版: key/D06.4 クドわふたー 劇場版.md
+          - D07 Rewrite: key/D07 Rewrite.md
+          - D08 Angel Beats!: key/D08 Angel Beats!.md
+          - D09 Charlotte: key/D09 Charlotte.md
+          - D10 神様になった日: key/D10 神様になった日.md
+          - D11 かぎなど: key/D11 かぎなど.md
+          - D12 プリマドール: key/D12 プリマドール.md
+          - D13 Summer Pockets: key/D13 Summer Pockets.md
   - 音乐清单:
       - Key Sounds Label:
         - KSLA 系列: music/KSLA.md

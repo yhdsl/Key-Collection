@@ -10,7 +10,7 @@
 
 [//]: # (TXT End)
 
-## \[N/A] The KEY Anthology Saxophone Collection (✅) :material-alert-decagram:{ .mdx-pulse title="最近更新" }
+## \[N/A] The KEY Anthology Saxophone Collection (✅)
 
 
 <small>:material-music-box-multiple: N/A</small>
@@ -96,7 +96,7 @@ BD/DVD: 不适用⛔
     </div>
 </div>
 
-## \[LIAM-1003~4] Lia 20th BEST (✅) :material-alert-decagram:{ .mdx-pulse title="最近更新" }
+## \[LIAM-1003~4] Lia 20th BEST (✅)
 
 
 <small>:material-music-box-multiple: LIAM-1003</small>
