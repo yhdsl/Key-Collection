@@ -495,9 +495,15 @@ def _get_product_source_name(product_name: str) -> str:
     :return:
         处理后的作品名称
     """
-    m = re.fullmatch(fr"[ABCD]\d\d(\.\d+)? (?P<source_name>.+)", product_name)
+    m = re.fullmatch(fr"(?P<class_id>[ABCD])\d\d(\.\d+)? (?P<source_name>.+)", product_name)
     if m:
-        source_name = m.groupdict()["source_name"]
+        if m.groupdict()["class_id"] in ("B", "C"):
+            extra_name = " (游戏)"
+        elif m.groupdict()["class_id"] == "D":
+            extra_name = " (动漫)"
+        else:
+            extra_name = ""
+        source_name = m.groupdict()["source_name"] + extra_name
     else:
         source_name = product_name
     return source_name
@@ -608,6 +614,7 @@ def gen_help_page(help_key_list: list[str]):
 
     markdown_list += [
         f'---\n',
+        f'\n',
         f'## 需要帮助的音乐\n',
         f'\n'
     ]
@@ -779,6 +786,7 @@ def build():
 
             cur.execute(f"SELECT the_class FROM music WHERE the_class_music = 'Key-Product'")
             the_class_list = _get_unique_list(sql_data=cur.fetchall())
+            the_class_list.sort()
 
             for the_class in the_class_list:
                 if not bool(the_class):
