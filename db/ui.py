@@ -82,7 +82,7 @@ class Data:
         :param value:
             条目名称
         """
-        self._name = str(value)
+        self._name = str(value).strip()
         return
 
     @property
@@ -111,7 +111,7 @@ class Data:
         :param value:
             条目最早发布时间
         """
-        self._time = str(value)
+        self._time = str(value).strip()
         return
 
     @property
@@ -138,7 +138,7 @@ class Data:
             条目类别
         """
         if str(value) in self.TypeType:
-            self._type = str(value)
+            self._type = str(value).strip()
         else:
             raise ValueError(value)
         return
@@ -158,7 +158,7 @@ class Data:
             条目状态
         """
         if str(value) in self.StatusType:
-            self._status = str(value)
+            self._status = str(value).strip()
         else:
             raise ValueError(value)
         return
@@ -178,7 +178,7 @@ class Data:
             条目原始资源收集状态
         """
         if str(value) in self.CollectType:
-            self._collect = str(value)
+            self._collect = str(value).strip()
         else:
             raise ValueError(value)
         return
@@ -197,7 +197,7 @@ class Data:
         :param value:
             条目简介
         """
-        self._introduction = str(value)
+        self._introduction = str(value).rstrip()
         return
 
     @property
@@ -214,7 +214,7 @@ class Data:
         :param value:
             条目备注1
         """
-        self._ps1 = str(value)
+        self._ps1 = str(value).rstrip()
         return
 
     @property
@@ -231,7 +231,7 @@ class Data:
         :param value:
             条目备注2
         """
-        self._ps2 = str(value)
+        self._ps2 = str(value).rstrip()
         return
 
     @property
@@ -248,7 +248,7 @@ class Data:
         :param value:
             条目备注3
         """
-        self._ps3 = str(value)
+        self._ps3 = str(value).rstrip()
         return
 
     @property
@@ -268,9 +268,9 @@ class Data:
             当传入列表时会进行覆盖设置
         """
         if isinstance(value, str) and bool(str(value)):
-            self._tags.append(str(value))
+            self._tags.append(str(value).strip())
         elif isinstance(value, list):
-            self._tags = list(str(tag) for tag in value if bool(tag))
+            self._tags = list(str(tag).strip() for tag in value if bool(tag))
         else:
             raise ValueError(value)
         return
@@ -290,7 +290,7 @@ class Data:
             条目所属的作品
         """
         if str(value) in self.ClassType:
-            self._class = str(value)
+            self._class = str(value).strip()
         else:
             raise ValueError(value)
         return
@@ -317,7 +317,7 @@ class Data:
         :param value:
             Bangumi 番组计划 外部链接 ID
         """
-        self._bangumi_id = str(value)
+        self._bangumi_id = str(value).strip()
         return
 
     @property
@@ -334,7 +334,7 @@ class Data:
         :param value:
             Steam 外部链接 ID
         """
-        self._steam_id = str(value)
+        self._steam_id = str(value).strip()
         return
 
     @property
@@ -351,7 +351,7 @@ class Data:
         :param value:
             VNDB 外部链接 ID
         """
-        self._vndb_id = str(value)
+        self._vndb_id = str(value).strip()
         return
 
     @property
@@ -368,7 +368,7 @@ class Data:
         :param value:
             VGMdb 外部链接 ID
         """
-        self._vgmdb_id = str(value)
+        self._vgmdb_id = str(value).strip()
         return
 
     def submit(self):
@@ -457,7 +457,7 @@ class KeyData(Data):
 
     @time.setter
     def time(self, value: str):
-        self._time = str(value)
+        self._time = str(value).strip()
         return
 
     @property
@@ -474,7 +474,7 @@ class KeyData(Data):
         :param value:
             条目中文名称
         """
-        self._name_zh = str(value)
+        self._name_zh = str(value).strip()
         return
 
     @property
@@ -492,7 +492,7 @@ class KeyData(Data):
             条目汉化资源收集状态
         """
         if str(value) in self.CollectType:
-            self._collect_zh = str(value)
+            self._collect_zh = str(value).strip()
         else:
             raise ValueError(value)
         return
@@ -515,7 +515,7 @@ class KeyData(Data):
             为 杂货铺 提供额外信息的所属分类
         """
         if str(value) != self.ClassType[0]:
-            self._class_other = str(value)
+            self._class_other = str(value).strip()
         else:
             raise ValueError(value)
         return
@@ -647,7 +647,7 @@ class MusicData(Data):
 
     @time.setter
     def time(self, value: str):
-        self._time = str(value)
+        self._time = str(value).strip()
         return
 
     @property
@@ -665,9 +665,9 @@ class MusicData(Data):
             艺术家
         """
         if isinstance(value, str) and bool(str(value)):
-            self._artist.append(str(value))
+            self._artist.append(str(value).strip())
         elif isinstance(value, list):
-            self._artist = list(str(tag) for tag in value if bool(tag))
+            self._artist = list(str(artist).strip() for artist in value if bool(artist))
         else:
             raise TypeError(value)
         return
@@ -690,9 +690,9 @@ class MusicData(Data):
             专辑编号
         """
         if isinstance(value, list):
-            self._catalog_number = list(str(tag) for tag in value if bool(tag))
+            self._catalog_number = list(str(number).strip() for number in value if bool(number))
         elif isinstance(value, str) and bool(str(value)):
-            self._catalog_number.append(str(value))
+            self._catalog_number.append(str(value).strip())
         else:
             raise TypeError(value)
         return
@@ -712,7 +712,7 @@ class MusicData(Data):
             音乐格式
         """
         if value in self.FileType:
-            self._file_type = str(value)
+            self._file_type = str(value).strip()
         else:
             raise ValueError(value)
         return
@@ -732,7 +732,7 @@ class MusicData(Data):
             条目 Booklet 资源收集状态
         """
         if value in self.CollectType:
-            self._collect_booklet = str(value)
+            self._collect_booklet = str(value).strip()
         else:
             raise ValueError(value)
         return
@@ -752,7 +752,7 @@ class MusicData(Data):
             条目 BD/DVD 资源收集状态
         """
         if value in self.CollectType:
-            self._collect_dvd = str(value)
+            self._collect_dvd = str(value).strip()
         else:
             raise ValueError(value)
         return
@@ -764,7 +764,7 @@ class MusicData(Data):
     @the_class.setter
     def the_class(self, value: str):
         if str(value) != self.ClassType[1]:
-            self._class = str(value)
+            self._class = str(value).strip()
         else:
             raise ValueError(value)
         return
@@ -789,7 +789,7 @@ class MusicData(Data):
             Key社音乐类别
         """
         if value in self.ClassMusicType:
-            self._class_music = str(value)
+            self._class_music = str(value).strip()
         else:
             raise ValueError(value)
         return
