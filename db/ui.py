@@ -197,7 +197,7 @@ class Data:
         :param value:
             条目简介
         """
-        self._introduction = str(value).rstrip()
+        self._introduction = str(value).lstrip()
         return
 
     @property
@@ -214,7 +214,7 @@ class Data:
         :param value:
             条目备注1
         """
-        self._ps1 = str(value).rstrip()
+        self._ps1 = str(value).lstrip()
         return
 
     @property
@@ -231,7 +231,7 @@ class Data:
         :param value:
             条目备注2
         """
-        self._ps2 = str(value).rstrip()
+        self._ps2 = str(value).lstrip()
         return
 
     @property
@@ -248,7 +248,7 @@ class Data:
         :param value:
             条目备注3
         """
-        self._ps3 = str(value).rstrip()
+        self._ps3 = str(value).lstrip()
         return
 
     @property
