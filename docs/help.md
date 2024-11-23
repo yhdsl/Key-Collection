@@ -165,7 +165,6 @@
 
 ### \[小说] MOON.〜 Movic Game Collection (❌)
 
-<small>:material-tag-text: Movic</small>
 <small>:material-tag-text: 馆山绿</small>
 <small>:material-tag-text: ISBN 4-87763-014-7</small>
 
@@ -203,6 +202,239 @@
     </div>
 </div>
 
+### \[书籍] ONE 〜辉く季节へ〜 Movic Game Collection 8 (❌)
+
+<small>:material-tag-text: 馆山绿</small>
+<small>:material-tag-text: ISBN 4-89601-388-3</small>
+
+```
+条目名称: ONE 〜辉く季节へ〜 Movic Game Collection 8
+中文名称: 
+发售时间: 1998/08/01
+类别: 书籍
+状态: 已完结🎉
+
+原版资源: 无资源❌
+汉化资源: 不适用⛔
+
+简介: 与前作MOON.一样，由馆山绿执笔所著的由游戏改变的小说，该系列由于发行商中止改编，因此最后两卷没有发售过
+
+备注1: 该作品为第1卷，主角为长森瑞佳
+备注2: 
+备注3: 
+```
+
+<div class="result">
+    <div class="grid">
+        <a href="https://bgm.tv/subject/499172" class="card" target=”_blank”>
+            前往 <i class="bangumi">Bangumi 番组计划</i> 对应的页面
+        </a>
+        <div class="card disable">
+            前往 Steam 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VNDB 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VGMdb 对应的页面
+        </div>
+    </div>
+</div>
+
+### \[书籍] ONE 〜辉く季节へ〜 2 Movic Game Collection 11 (❌)
+
+<small>:material-tag-text: 馆山绿</small>
+<small>:material-tag-text: ISBN 4-89601-420-0</small>
+
+```
+条目名称: ONE 〜辉く季节へ〜 2 Movic Game Collection 11
+中文名称: 
+发售时间: 1998/12/01
+类别: 书籍
+状态: 已完结🎉
+
+原版资源: 无资源❌
+汉化资源: 不适用⛔
+
+简介: 与前作MOON.一样，由馆山绿执笔所著的由游戏改变的小说，该系列由于发行商中止改编，因此最后两卷没有发售过
+
+备注1: 该作品为第2卷，主角为里村茜
+备注2: 
+备注3: 
+```
+
+<div class="result">
+    <div class="grid">
+        <a href="https://bgm.tv/subject/499173" class="card" target=”_blank”>
+            前往 <i class="bangumi">Bangumi 番组计划</i> 对应的页面
+        </a>
+        <div class="card disable">
+            前往 Steam 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VNDB 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VGMdb 对应的页面
+        </div>
+    </div>
+</div>
+
+### \[书籍] ONE 〜辉く季节へ〜 3 Movic Game Collection 12 (❌)
+
+<small>:material-tag-text: 馆山绿</small>
+<small>:material-tag-text: ISBN 4-89601-434-0</small>
+
+```
+条目名称: ONE 〜辉く季节へ〜 3 Movic Game Collection 12
+中文名称: 
+发售时间: 1999/04/30
+类别: 书籍
+状态: 已完结🎉
+
+原版资源: 无资源❌
+汉化资源: 不适用⛔
+
+简介: 与前作MOON.一样，由馆山绿执笔所著的由游戏改变的小说，该系列由于发行商中止改编，因此最后两卷没有发售过
+
+备注1: 该作品为第3卷，主角为川名岬
+备注2: 
+备注3: 
+```
+
+<div class="result">
+    <div class="grid">
+        <a href="https://bgm.tv/subject/499174" class="card" target=”_blank”>
+            前往 <i class="bangumi">Bangumi 番组计划</i> 对应的页面
+        </a>
+        <div class="card disable">
+            前往 Steam 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VNDB 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VGMdb 对应的页面
+        </div>
+    </div>
+</div>
+
+### \[漫画] ONE 〜輝く季節へ〜 コミックアンソロジー (❌)
+
+<small>:material-tag-text: ISBN 4-89601-451-0</small>
+
+```
+条目名称: ONE 〜輝く季節へ〜 コミックアンソロジー
+中文名称: ONE～光辉的季节～Comic Anthology
+发售时间: 1999/10/01
+类别: 漫画
+状态: 已完结🎉
+
+原版资源: 无资源❌
+汉化资源: 不适用⛔
+
+简介: 由Movic发行的改编漫画第一卷
+
+备注1: 
+备注2: 
+备注3: 
+```
+
+<div class="result">
+    <div class="grid">
+        <div class="card disable">
+            前往 Bangumi 番组计划 对应的页面
+        </div>
+        <div class="card disable">
+            前往 Steam 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VNDB 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VGMdb 对应的页面
+        </div>
+    </div>
+</div>
+
+### \[漫画] ONE 〜輝く季節へ〜 コミックアンソロジー2 (❌)
+
+<small>:material-tag-text: ISBN 4-89601-468-5</small>
+
+```
+条目名称: ONE 〜輝く季節へ〜 コミックアンソロジー2
+中文名称: ONE～光辉的季节～Comic Anthology 2
+发售时间: 1999/12/01
+类别: 漫画
+状态: 已完结🎉
+
+原版资源: 无资源❌
+汉化资源: 不适用⛔
+
+简介: 由Movic发行的改编漫画第二卷
+
+备注1: 
+备注2: 
+备注3: 
+```
+
+<div class="result">
+    <div class="grid">
+        <div class="card disable">
+            前往 Bangumi 番组计划 对应的页面
+        </div>
+        <div class="card disable">
+            前往 Steam 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VNDB 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VGMdb 对应的页面
+        </div>
+    </div>
+</div>
+
+### \[书籍] ONE 〜辉く季节へ〜 4 Movic Game Collection 17 (❌)
+
+<small>:material-tag-text: 馆山绿</small>
+<small>:material-tag-text: ISBN 4-89601-480-4</small>
+
+```
+条目名称: ONE 〜辉く季节へ〜 4 Movic Game Collection 17
+中文名称: 
+发售时间: 2000/04/01
+类别: 书籍
+状态: 已完结🎉
+
+原版资源: 无资源❌
+汉化资源: 不适用⛔
+
+简介: 与前作MOON.一样，由馆山绿执笔所著的由游戏改变的小说，该系列由于发行商中止改编，因此最后两卷没有发售过
+
+备注1: 该作品为第4卷，主角为七濑留美
+备注2: 
+备注3: 
+```
+
+<div class="result">
+    <div class="grid">
+        <a href="https://bgm.tv/subject/499175" class="card" target=”_blank”>
+            前往 <i class="bangumi">Bangumi 番组计划</i> 对应的页面
+        </a>
+        <div class="card disable">
+            前往 Steam 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VNDB 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VGMdb 对应的页面
+        </div>
+    </div>
+</div>
+
 ---
+
 ## 需要帮助的音乐
 

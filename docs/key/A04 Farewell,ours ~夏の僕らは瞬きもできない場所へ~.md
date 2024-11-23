@@ -1,14 +1,10 @@
----
-status: new
----
-
 [//]: # (Metadata End)
 
 [](){#A04}
 
 [//]: # (TXT End)
 
-## \[书籍] Farewell,ours ~夏の僕らは瞬きもできない場所へ~ (✅) :material-alert-decagram:{ .mdx-pulse title="最近更新" }
+## \[书籍] Farewell,ours ~夏の僕らは瞬きもできない場所へ~ (✅)
 
 <small>:material-tag-text: 都乃河勇人</small>
 <small>:material-tag-text: 樋上いたる</small>
