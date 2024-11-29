@@ -13,8 +13,8 @@ import natsort
 import ui
 
 
-RECENTLY_UPDATED_LIMIT_MAIN = 3  #: 最近更新的主条目限制
-RECENTLY_UPDATED_LIMIT_OTHER = 10  #: 最近更新的其他条目限制，其中音乐部分分开统计
+RECENTLY_UPDATED_LIMIT_MAIN = 5  #: 最近更新的主条目限制
+RECENTLY_UPDATED_LIMIT_OTHER = 15  #: 最近更新的其他条目限制，其中音乐部分分开统计
 
 
 CON = sqlite3.connect("../database.db")
