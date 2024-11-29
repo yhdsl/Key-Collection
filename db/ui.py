@@ -1800,7 +1800,7 @@ def web_ui(
                     )
 
                 music_tag = nicegui.ui.select(
-                    music_data.tags.split(";") if bool(music_data.tags) else ['OST', 'Drama'],
+                    music_data.tags.split(";") if bool(music_data.tags) else ['OST', 'Drama', 'Hi-Res'],
                     label="音乐标签",
                     new_value_mode="add-unique",
                     multiple=True,
