@@ -56,6 +56,94 @@ BD/DVD: 不适用⛔
     </div>
 </div>
 
+### \[RMCD-09071~3] yukar -ユーカラ- (✅) :material-alert-decagram:{ .mdx-pulse title="最近更新" }
+
+<small>:octicons-link-16: 5 -ファイブ-</small>
+
+<small>:material-music-box-multiple: RMCD-09071</small>
+<small>:material-music-box-multiple: RMCD-09072</small>
+<small>:material-music-box-multiple: RMCD-09073</small>
+
+<small>:material-tag-text: OST</small>
+
+```
+专辑名: yukar -ユーカラ-
+艺术家: 麻枝准; 響; VWN
+专辑编号: RMCD-09071~3
+发售时间: 2009/07/24
+状态: 已发售🎉
+
+资源: 已收藏✅
+音乐格式: FLAC
+Booklet: 已收藏✅
+BD/DVD: 不适用⛔
+
+简介: 游戏原声带和Vocal Track
+
+备注1: 由于发行时专辑内出现了大量的错误，包括曲目重复、歌词错误，单独又赠送了道歉光盘，具体内容请查看对应的条目，目前收藏的为修正版
+备注2: 
+备注3: 
+```
+
+<div class="result">
+    <div class="grid">
+        <a href="https://bgm.tv/subject/2259" class="card" target=”_blank”>
+            前往 <i class="bangumi">Bangumi 番组计划</i> 对应的页面
+        </a>
+        <div class="card disable">
+            前往 Steam 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VNDB 对应的页面
+        </div>
+        <a href="https://vgmdb.net/album/13889" class="card" target=”_blank”>
+            前往 <i class="vgmdb">VGMdb</i> 对应的页面
+        </a>
+    </div>
+</div>
+
+### \[YUKAR-APOLOGY] 「yukar～ユーカラ～」 APOLOGY DISC (✅) :material-alert-decagram:{ .mdx-pulse title="最近更新" }
+
+<small>:octicons-link-16: 5 -ファイブ-</small>
+
+<small>:material-music-box-multiple: YUKAR-APOLOGY</small>
+
+```
+专辑名: 「yukar～ユーカラ～」 APOLOGY DISC
+艺术家: 麻枝准
+专辑编号: YUKAR-APOLOGY
+发售时间: 2009/07/24
+状态: 已发售🎉
+
+资源: 已收藏✅
+音乐格式: FLAC
+Booklet: 已收藏✅
+BD/DVD: 不适用⛔
+
+简介: 由于专辑『yukar～ユーカラ～』发行时出现了多处错误，另外赠送的道歉专辑
+
+备注1: 
+备注2: 
+备注3: 
+```
+
+<div class="result">
+    <div class="grid">
+        <div class="card disable">
+            前往 Bangumi 番组计划 对应的页面
+        </div>
+        <div class="card disable">
+            前往 Steam 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VNDB 对应的页面
+        </div>
+        <a href="https://vgmdb.net/album/21349" class="card" target=”_blank”>
+            前往 <i class="vgmdb">VGMdb</i> 对应的页面
+        </a>
+    </div>
+</div>
+
 ### \[KDSD-00357] 導きのハーモニー (✅)
 
 <small>:octicons-link-16: 5 -ファイブ-</small>
@@ -327,7 +415,7 @@ BD/DVD: 不适用⛔
     </div>
 </div>
 
-### \[MACM-1060] ONE ～輝く季節へ～ ドラマCD VOL.2 たいせつなばしょ (✅)
+### \[MACM-1060] ONE ～輝く季節へ～ ドラマCD VOL.2 たいせつなばしょ (✅) :material-alert-decagram:{ .mdx-pulse title="最近更新" }
 
 <small>:octicons-link-16: ONE ～輝く季節へ～ (游戏)</small>
 
@@ -459,6 +547,94 @@ BD/DVD: 不适用⛔
 
 ---
 ## ONE. (游戏)
+
+### \[COZX-2063~4] Beautiful Dreamer [限定盤] (✅) :material-alert-decagram:{ .mdx-pulse title="最近更新" }
+
+<small>:octicons-link-16: ONE. (游戏)</small>
+
+<small>:material-music-box-multiple: COZX-2063</small>
+<small>:material-music-box-multiple: COZX-2064</small>
+
+<small>:material-tag-text: Hi-Res</small>
+<small>:material-tag-text: 限定盤</small>
+
+```
+专辑名: Beautiful Dreamer [限定盤]
+艺术家: fhána
+专辑编号: COZX-2063~4
+发售时间: 2023/12/20
+状态: 已发售🎉
+
+资源: 已收藏✅
+音乐格式: FLAC
+Booklet: 已收藏✅
+BD/DVD: 已收藏✅
+
+简介: fhána 发行的一张专辑，包含了 ONE. 的片头曲和片尾曲
+
+备注1: 目前收藏了 CD+DVD 的抓取版本，以及 MORA 上发售的 HiFi 版本
+备注2: 该专辑还有一张没有附带 DVD 的普通版本，因为专辑编号差异过大，另开了一个条目记录
+备注3: 
+```
+
+<div class="result">
+    <div class="grid">
+        <a href="https://bgm.tv/subject/459077" class="card" target=”_blank”>
+            前往 <i class="bangumi">Bangumi 番组计划</i> 对应的页面
+        </a>
+        <div class="card disable">
+            前往 Steam 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VNDB 对应的页面
+        </div>
+        <a href="https://vgmdb.net/album/133166" class="card" target=”_blank”>
+            前往 <i class="vgmdb">VGMdb</i> 对应的页面
+        </a>
+    </div>
+</div>
+
+### \[COCX-42155] Beautiful Dreamer (🔘) :material-alert-decagram:{ .mdx-pulse title="最近更新" }
+
+<small>:octicons-link-16: ONE. (游戏)</small>
+
+<small>:material-music-box-multiple: COCX-42155</small>
+
+```
+专辑名: Beautiful Dreamer
+艺术家: fhána
+专辑编号: COCX-42155
+发售时间: 2023/12/20
+状态: 已发售🎉
+
+资源: 未收藏🔘
+音乐格式: 未知
+Booklet: 未收藏🔘
+BD/DVD: 不适用⛔
+
+简介: fhána 发行的一张专辑，包含了 ONE. 的片头曲和片尾曲
+
+备注1: 这是没有 DVD 的普通版本，详细内容请参考限定盤
+备注2: 
+备注3: 
+```
+
+<div class="result">
+    <div class="grid">
+        <a href="https://bgm.tv/subject/459077" class="card" target=”_blank”>
+            前往 <i class="bangumi">Bangumi 番组计划</i> 对应的页面
+        </a>
+        <div class="card disable">
+            前往 Steam 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VNDB 对应的页面
+        </div>
+        <a href="https://vgmdb.net/album/133165" class="card" target=”_blank”>
+            前往 <i class="vgmdb">VGMdb</i> 对应的页面
+        </a>
+    </div>
+</div>
 
 ### \[NVMREC-001] ONE. オリジナルサウンドトラック&ドラマCD (🔘) :material-alert-decagram:{ .mdx-pulse title="最近更新" }
 
