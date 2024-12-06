@@ -434,6 +434,302 @@
     </div>
 </div>
 
+### \[小说] Kanon (❌)
+
+<small>:material-tag-text: 成人向</small>
+
+```
+条目名称: Kanon
+中文名称: 
+发售时间: 1999/10/23
+类别: 小说
+状态: 已完结🎉
+
+原版资源: 无资源❌
+汉化资源: 无资源❌
+
+简介: 由 清水マリコ 所著的5卷小说，包含成人内容
+
+备注1: 没有原版和中文版本
+备注2: 
+备注3: 
+```
+
+<div class="result">
+    <div class="grid">
+        <div class="card disable">
+            前往 Bangumi 番组计划 对应的页面
+        </div>
+        <div class="card disable">
+            前往 Steam 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VNDB 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VGMdb 对应的页面
+        </div>
+    </div>
+</div>
+
+### \[漫画] KANON (❌)
+
+<small>:material-tag-text: 月刊Comic电击大王</small>
+
+```
+条目名称: KANON
+中文名称: 華音
+发售时间: 2000/10/15
+类别: 漫画
+状态: 已完结🎉
+
+原版资源: 无资源❌
+汉化资源: 不适用⛔
+
+简介: 在《月刊Comic电击大王》上连载的改编漫画，后发行了两册单行本
+
+备注1: 
+备注2: 
+备注3: 
+```
+
+<div class="result">
+    <div class="grid">
+        <a href="https://bgm.tv/subject/498982" class="card" target=”_blank”>
+            前往 <i class="bangumi">Bangumi 番组计划</i> 对应的页面
+        </a>
+        <div class="card disable">
+            前往 Steam 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VNDB 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VGMdb 对应的页面
+        </div>
+    </div>
+</div>
+
+### \[漫画] Kanon & AIRスカイ (❌)
+
+<small>:material-tag-text: 角川書店</small>
+
+```
+条目名称: Kanon & AIRスカイ
+中文名称: 
+发售时间: 2002/05/01
+类别: 漫画
+状态: 已完结🎉
+
+原版资源: 无资源❌
+汉化资源: 不适用⛔
+
+简介: 由角川書店发行的依澄れい漫画选集，包含了Kanon和AIR所没有描述的故事
+
+备注1: 
+备注2: 
+备注3: 
+```
+
+<div class="result">
+    <div class="grid">
+        <a href="https://bgm.tv/subject/142618" class="card" target=”_blank”>
+            前往 <i class="bangumi">Bangumi 番组计划</i> 对应的页面
+        </a>
+        <div class="card disable">
+            前往 Steam 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VNDB 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VGMdb 对应的页面
+        </div>
+    </div>
+</div>
+
+### \[小说] Kanon&AIR SS 青空編 (❌)
+
+```
+条目名称: Kanon&AIR SS 青空編
+中文名称: 
+发售时间: 2002/11/01
+类别: 小说
+状态: 已完结🎉
+
+原版资源: 无资源❌
+汉化资源: 不适用⛔
+
+简介: 由角川書店发行的Kanon和AIR的小说，续集是『Kanon&AIR SS 茜空編』
+
+备注1: 
+备注2: 
+备注3: 
+```
+
+<div class="result">
+    <div class="grid">
+        <a href="https://bgm.tv/subject/142619" class="card" target=”_blank”>
+            前往 <i class="bangumi">Bangumi 番组计划</i> 对应的页面
+        </a>
+        <div class="card disable">
+            前往 Steam 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VNDB 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VGMdb 对应的页面
+        </div>
+    </div>
+</div>
+
+### \[小说] Kanon&AIR SS 茜空編 (❌)
+
+```
+条目名称: Kanon&AIR SS 茜空編
+中文名称: 
+发售时间: 2002/11/01
+类别: 小说
+状态: 已完结🎉
+
+原版资源: 无资源❌
+汉化资源: 不适用⛔
+
+简介: 由角川書店发行的Kanon和AIR的小说
+
+备注1: 
+备注2: 
+备注3: 
+```
+
+<div class="result">
+    <div class="grid">
+        <a href="https://bgm.tv/subject/142620" class="card" target=”_blank”>
+            前往 <i class="bangumi">Bangumi 番组计划</i> 对应的页面
+        </a>
+        <div class="card disable">
+            前往 Steam 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VNDB 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VGMdb 对应的页面
+        </div>
+    </div>
+</div>
+
+### \[漫画] Kanon & AIRアンソロジーコミック-はらぺこ- (❌)
+
+```
+条目名称: Kanon & AIRアンソロジーコミック-はらぺこ-
+中文名称: 
+发售时间: 2003/08/01
+类别: 漫画
+状态: 已完结🎉
+
+原版资源: 无资源❌
+汉化资源: 不适用⛔
+
+简介: 由須田さぎり所绘制的以Kanon和AIR为题材的漫画
+
+备注1: 
+备注2: 
+备注3: 
+```
+
+<div class="result">
+    <div class="grid">
+        <div class="card disable">
+            前往 Bangumi 番组计划 对应的页面
+        </div>
+        <div class="card disable">
+            前往 Steam 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VNDB 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VGMdb 对应的页面
+        </div>
+    </div>
+</div>
+
+### \[漫画] Kanon ホントの想いは笑顔の向こう側に (❌)
+
+<small>:material-tag-text: Dragon Age Pure</small>
+
+```
+条目名称: Kanon ホントの想いは笑顔の向こう側に
+中文名称: Kanon 真正的思念是对方的微笑
+发售时间: 2007/04/01
+类别: 漫画
+状态: 已完结🎉
+
+原版资源: 无资源❌
+汉化资源: 不适用⛔
+
+简介: 在《Dragon Age Pure》上连载的改编漫画，后发行了两册单行本
+
+备注1: 
+备注2: 
+备注3: 
+```
+
+<div class="result">
+    <div class="grid">
+        <div class="card disable">
+            前往 Bangumi 番组计划 对应的页面
+        </div>
+        <div class="card disable">
+            前往 Steam 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VNDB 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VGMdb 对应的页面
+        </div>
+    </div>
+</div>
+
+### \[小说] Kanon 文庫版 (❓)
+
+```
+条目名称: Kanon 文庫版
+中文名称: 
+发售时间: 2009/06/27
+类别: 小说
+状态: 已完结🎉
+
+原版资源: 无资源❌
+汉化资源: 有问题❓
+
+简介: 在2009年将原先小说中成人内容去除，修正，并新增第六卷后发行的文库版
+
+备注1: 缺乏原版资源
+备注2: 中文翻译版本收藏的是轻小说文库版本，但由于缺乏原版对照，无法判断是否缺少插图
+备注3: 
+```
+
+<div class="result">
+    <div class="grid">
+        <a href="https://bgm.tv/subject/146037" class="card" target=”_blank”>
+            前往 <i class="bangumi">Bangumi 番组计划</i> 对应的页面
+        </a>
+        <div class="card disable">
+            前往 Steam 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VNDB 对应的页面
+        </div>
+        <div class="card disable">
+            前往 VGMdb 对应的页面
+        </div>
+    </div>
+</div>
+
 ---
 
 ## 需要帮助的音乐

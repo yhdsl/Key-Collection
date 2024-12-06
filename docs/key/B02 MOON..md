@@ -1,14 +1,10 @@
----
-status: new
----
-
 [//]: # (Metadata End)
 
 [](){#B02}
 
 [//]: # (TXT End)
 
-## \[游戏] MOON. (✅) :material-alert-decagram:{ .mdx-pulse title="最近更新" }
+## \[游戏] MOON. (✅)
 
 <small>:material-tag-text: Keyの原点</small>
 <small>:material-tag-text: 事実上の第1作</small>
@@ -129,7 +125,7 @@ status: new
     </div>
 </div>
 
-### \[游戏] Eternal Fighter Zero (✅) :material-alert-decagram:{ .mdx-pulse title="最近更新" }
+### \[游戏] Eternal Fighter Zero (✅)
 
 <small>:material-tag-text: 黄昏フロンティア</small>
 
