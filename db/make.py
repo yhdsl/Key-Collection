@@ -16,13 +16,10 @@ import ui
 RECENTLY_UPDATED_LIMIT_MAIN = 5  #: 最近更新的主条目限制
 RECENTLY_UPDATED_LIMIT_OTHER = 15  #: 最近更新的其他条目限制，其中音乐部分分开统计
 
-
 CON = sqlite3.connect("../database.db")
-
 
 MetadataEnd = "[//]: # (Metadata End)\n"
 TXTEnd = "[//]: # (TXT End)\n"
-
 
 KeyFileDict: dict[str, pathlib.Path] = {
     name.stem: name
@@ -263,7 +260,7 @@ def get_key_markdown(
         title_ex = ''
 
     markdown_list = [
-        fr'{'#' * int(level)} \[{data_dict["the_type"]}] {data_dict["name"]} ({data_dict["icon"]})' + \
+        fr'{'#' * int(level)} \[{data_dict["the_type"]}] {data_dict["name"]} ({data_dict["icon"]})' +
         f'{title_ex}\n',
         f'\n',
     ]
@@ -343,7 +340,7 @@ def get_music_markdown(
         title_ex = ''
 
     markdown_list = [
-        fr'{'#' * int(level)} \[{data_dict["catalog_number_title"]}] {data_dict["name"]} ({data_dict["icon"]})' + \
+        fr'{'#' * int(level)} \[{data_dict["catalog_number_title"]}] {data_dict["name"]} ({data_dict["icon"]})' +
         f'{title_ex}\n',
         f'\n',
     ]
@@ -679,7 +676,7 @@ def build():
                             key_data,
                             level=3,
                             recently_updated=False
-                    )
+                        )
 
                 markdown_list += [
                     f'---\n'
@@ -713,7 +710,7 @@ def build():
                     key_main_data,
                     level=2,
                     recently_updated=(key_main_data in recently_updated_key)
-                    )
+                )
 
                 if key_main_data["icon"] in ('❌', '❓'):
                     help_key_list += get_key_markdown(

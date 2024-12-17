@@ -450,7 +450,7 @@ class KeyData(Data):
             条目最早发布时间，
             会根据条目状态更改内容
         """
-        if self.status in ("未发售👀", ):
+        if self.status in ("未发售👀",):
             return f"{self._time} (预计)"
         else:
             return self._time
@@ -581,7 +581,7 @@ class KeyData(Data):
 
 
 class MusicData(Data):
-    TypeType = ("音乐", )  #: 可用的类别
+    TypeType = ("音乐",)  #: 可用的类别
     StatusType = ("未发售👀", "已发售🎉")  #: 可用的状态
     CollectType = ("已收藏✅", "无资源❌", "未收藏🔘", "有问题❓", "等待中👀", "不适用⛔")  #: 可用的收集状态
     ClassType = ("",) + ClassType
@@ -640,7 +640,7 @@ class MusicData(Data):
             条目最早发布时间，
             会根据条目状态更改内容
         """
-        if self.status in ("未发售👀", ):
+        if self.status in ("未发售👀",):
             return f"{self._time} (预计)"
         else:
             return self._time
@@ -1425,7 +1425,7 @@ def web_ui(
                 nicegui.ui.label("⦿ 条目信息")
 
                 with nicegui.ui.row(align_items="center").classes('w-full'):
-                    key_time =  nicegui.ui.input(
+                    key_time = nicegui.ui.input(
                         label="条目发行日期",
                         placeholder="请输入...",
                         validation=verify_date
@@ -1544,7 +1544,7 @@ def web_ui(
                         )
                         key_bangumi.props('clearable')
                         tooltip = nicegui.ui.tooltip()
-                        tooltip.bind_text_from(key_data,"bangumi_id")
+                        tooltip.bind_text_from(key_data, "bangumi_id")
                         tooltip.bind_visibility_from(
                             key_data,
                             "bangumi_id",
@@ -1563,7 +1563,7 @@ def web_ui(
                         )
                         key_steam.props('clearable')
                         tooltip = nicegui.ui.tooltip()
-                        tooltip.bind_text_from(key_data,"steam_id")
+                        tooltip.bind_text_from(key_data, "steam_id")
                         tooltip.bind_visibility_from(
                             key_data,
                             "steam_id",
@@ -1583,7 +1583,7 @@ def web_ui(
                         )
                         key_vndb.props('clearable')
                         tooltip = nicegui.ui.tooltip()
-                        tooltip.bind_text_from(key_data,"vndb_id")
+                        tooltip.bind_text_from(key_data, "vndb_id")
                         tooltip.bind_visibility_from(
                             key_data,
                             "vndb_id",
@@ -1602,7 +1602,7 @@ def web_ui(
                         )
                         key_vgmdb.props('clearable')
                         tooltip = nicegui.ui.tooltip()
-                        tooltip.bind_text_from(key_data,"vgmdb_id")
+                        tooltip.bind_text_from(key_data, "vgmdb_id")
                         tooltip.bind_visibility_from(
                             key_data,
                             "vgmdb_id",
@@ -1855,9 +1855,10 @@ def web_ui(
                     music_check_list.append(music_artist)
 
                     with nicegui.ui.input(
-                        label="艺术家 (自动分割)",
-                        placeholder="请输入...",
-                        validation={'艺术家不能为空': lambda value: bool(value) or bool(''.join(music_artist.value))}
+                            label="艺术家 (自动分割)",
+                            placeholder="请输入...",
+                            validation={
+                                '艺术家不能为空': lambda value: bool(value) or bool(''.join(music_artist.value))}
                     ) as music_artist_split:
                         music_artist_split.classes('w-4/5')
                         music_artist_split.set_value(music_data.artist)
@@ -1899,8 +1900,8 @@ def web_ui(
                     music_check_list.append(music_catalog_number)
 
                     with nicegui.ui.input(
-                        label="专辑编号 (自动分割) | 没有则置空",
-                        placeholder="请输入..."
+                            label="专辑编号 (自动分割) | 没有则置空",
+                            placeholder="请输入..."
                     ) as music_catalog_number_split:
                         music_catalog_number_split.classes('w-4/5')
                         music_catalog_number_split.set_value(music_data.catalog_number)
@@ -2069,7 +2070,7 @@ def web_ui(
                         )
                         music_bangumi.props('clearable')
                         tooltip = nicegui.ui.tooltip()
-                        tooltip.bind_text_from(music_data,"bangumi_id")
+                        tooltip.bind_text_from(music_data, "bangumi_id")
                         tooltip.bind_visibility_from(
                             music_data,
                             "bangumi_id",
@@ -2088,7 +2089,7 @@ def web_ui(
                         )
                         music_steam.props('clearable')
                         tooltip = nicegui.ui.tooltip()
-                        tooltip.bind_text_from(music_data,"steam_id")
+                        tooltip.bind_text_from(music_data, "steam_id")
                         tooltip.bind_visibility_from(
                             music_data,
                             "steam_id",
@@ -2108,7 +2109,7 @@ def web_ui(
                         )
                         music_vndb.props('clearable')
                         tooltip = nicegui.ui.tooltip()
-                        tooltip.bind_text_from(music_data,"vndb_id")
+                        tooltip.bind_text_from(music_data, "vndb_id")
                         tooltip.bind_visibility_from(
                             music_data,
                             "vndb_id",
@@ -2128,7 +2129,7 @@ def web_ui(
                         )
                         music_vgmdb.props('clearable')
                         tooltip = nicegui.ui.tooltip()
-                        tooltip.bind_text_from(music_data,"vgmdb_id")
+                        tooltip.bind_text_from(music_data, "vgmdb_id")
                         tooltip.bind_visibility_from(
                             music_data,
                             "vgmdb_id",
@@ -2347,7 +2348,7 @@ def web_ui(
         table_select.bind_text_from(
             db_table,
             "selected",
-            backward=lambda value: f"已选择: {value[0]["name"]} "if bool(value) else "未选择任何条目"
+            backward=lambda value: f"已选择: {value[0]["name"]} " if bool(value) else "未选择任何条目"
         )
         table_data_edit.on_click(functools.partial(table_edit, add=False))
         table_data_add.on_click(functools.partial(table_edit, add=True))
